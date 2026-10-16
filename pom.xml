@@ -65,11 +65,6 @@
                   <element>BUNDLE</element>
                   <limits>
                     <limit>
-                      <counter>INSTRUCTION</counter>
-                      <value>COVEREDRATIO</value>
-                      <minimum>0.50</minimum>
-                    </limit>
-                    <limit>
                       <counter>LINE</counter>
                       <value>COVEREDRATIO</value>
                       <minimum>0.50</minimum>

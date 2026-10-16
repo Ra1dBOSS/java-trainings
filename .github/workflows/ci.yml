@@ -21,8 +21,5 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
-      - name: Сборка проекта (Maven)
-        run: mvn -B package -DskipTests
-
-      - name: Прогон тестов (если есть)
-        run: mvn -B test
+      - name: Сборка и тесты (Maven)
+        run: mvn -B package
